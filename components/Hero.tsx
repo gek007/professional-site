@@ -124,7 +124,7 @@ export default function Hero() {
               <Mail size={20} />
             </a>
             <a
-              href="https://github.com"
+              href="https://github.com/gek007"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#9090b0] hover:text-[#00d4ff] transition-colors"

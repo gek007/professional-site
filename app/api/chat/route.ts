@@ -13,8 +13,9 @@ Freelance Senior Software Engineer focused on Python GenAI & AI Agent Architectu
 - Designing and deploying multiple AI-powered apps end-to-end: architecture, data pipelines, Docker, Kubernetes, and production delivery.
 - Built AI Meeting Intelligence Platform: event-driven pipeline (video/audio → Whisper → LLM extraction) orchestrated via RabbitMQ with RAG + MCP integration.
 - Built GenAI news aggregator pipeline using GPT-4.1 Mini for structured summarization; deployed on Render with PostgreSQL.
-- Built RAG audio transcription web app with document ingestion, vector search, re-ranking, and LLM answer generation.
-- Stack: Python, LangChain, LangGraph, Gradio, async/multithreading, Docker, K8s, Frontier & Open-Source LLMs.
+- Built RAG-Powered Video Intelligence Agent: full-stack RAG system ingesting video/transcripts, generating embeddings, indexed in Supabase pgvector. Pydantic-AI agent over streaming FastAPI backend for conversational search with timestamped answers across entire video libraries.
+- Built RAG audio web knowledge assistant with document ingestion, vector search, re-ranking, LLM answer generation, and event-triggered notifications.
+- Stack: Python, LangChain, LangGraph, Pydantic-AI, Gradio, async/multithreading, Docker, K8s, Frontier & Open-Source LLMs.
 
 ## Career History
 **Varonis** — Senior Backend Software Developer | Distributed Data Protection (Sep 2014 – Jul 2025, 10 yrs 11 mos, Herzliya, Israel)
@@ -52,13 +53,14 @@ Freelance Senior Software Engineer focused on Python GenAI & AI Agent Architectu
 - B.Sc. Computer Science — Kyiv Engineering Technical Institute (1990–1992)
 
 ## Certifications
+- AI Coder: Vibe Coder to Agentic Engineer
 - AI Coding Agents with GitHub Copilot and Cursor
 - AI For Developers With GitHub Copilot, Cursor AI & ChatGPT
 - Introduction to AWS — Understanding AWS Basics
 - Software Architecture & Design of Modern Large Scale Systems
 
 ## Core Skills
-- **AI/GenAI**: LangChain, LangGraph, RAG, AI Agents, LLM APIs (OpenAI, Anthropic, Gemini, Groq), MCP, Whisper, Gradio, Hugging Face, Ollama
+- **AI/GenAI**: LangChain, LangGraph, Pydantic-AI, CrewAI, LlamaIndex, RAG, AI Agents, LLM APIs (OpenAI, Anthropic, Gemini, Groq), MCP, OpenAI Codex, Whisper, Gradio, Hugging Face, Ollama
 - **Languages**: Python (primary), C# .NET, C/C++, TypeScript/JavaScript
 - **Backend**: FastAPI, ASP.NET Core, WCF, REST APIs, WebSockets, RabbitMQ
 - **Cloud & DevOps**: Docker, Kubernetes, Azure, AWS, CI/CD, GitHub Actions

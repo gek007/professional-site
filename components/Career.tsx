@@ -16,8 +16,9 @@ const jobs = [
       "Designing and deploying multiple AI-powered apps end-to-end: architecture, data pipelines, Docker, Kubernetes, and production delivery.",
       "Built AI Meeting Intelligence Platform: event-driven pipeline (video/audio → Whisper → LLM extraction) orchestrated via RabbitMQ with RAG + MCP integration.",
       "Built GenAI news aggregator pipeline using GPT-4.1 Mini for structured summarization; deployed on Render with PostgreSQL.",
-      "Built RAG audio transcription web app with document ingestion, vector search, re-ranking, and LLM answer generation.",
-      "Stack: Python, LangChain, LangGraph, Gradio, async/multithreading, Docker, K8s, Frontier & Open-Source LLMs.",
+      "Built RAG-Powered Video Intelligence Agent: full-stack RAG system ingesting video/transcripts, generating embeddings, and indexing in Supabase pgvector. Pydantic-AI agent over streaming FastAPI backend for conversational search with timestamped answers.",
+      "Built RAG audio web knowledge assistant with document ingestion, vector search, re-ranking, LLM answer generation, and event-triggered notifications.",
+      "Stack: Python, LangChain, LangGraph, Pydantic-AI, Gradio, async/multithreading, Docker, K8s, Frontier & Open-Source LLMs.",
     ],
   },
   {

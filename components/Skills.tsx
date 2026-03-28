@@ -12,7 +12,12 @@ const skillCategories = [
       "LangChain",
       "LangGraph",
       "LangSmith",
+      "Pydantic-AI",
+      "CrewAI",
+      "LlamaIndex",
       "OpenAI SDK",
+      "OpenAI Codex",
+      "MCP",
       "Vector Embeddings",
       "ChromaDB",
       "Hugging Face",
@@ -72,6 +77,8 @@ const skillCategories = [
       "MySQL",
       "SQLAlchemy",
       "EF Core",
+      "Supabase pgvector",
+      "Pinecone",
     ],
   },
   {
@@ -181,9 +188,9 @@ export default function Skills() {
               tags: ["Python 3.12", "PostgreSQL", "OpenAI API", "Docker", "Render"],
             },
             {
-              name: "RAG Audio Transcription App",
-              desc: "Web app for audio transcription + contextual Q&A. Full RAG pipeline: document ingestion, embedding, vector search, re-ranking, LLM answer generation.",
-              tags: ["RAG", "Vector DB", "LLM", "FastAPI", "Python"],
+              name: "RAG-Powered Video Intelligence Agent",
+              desc: "Full-stack RAG system ingesting video/transcripts, generating embeddings, indexed in Supabase pgvector. Pydantic-AI agent over streaming FastAPI for conversational search with timestamped answers.",
+              tags: ["Pydantic-AI", "FastAPI", "Supabase", "pgvector", "Python"],
             },
           ].map((proj) => (
             <div

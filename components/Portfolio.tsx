@@ -22,13 +22,22 @@ const placeholders = [
     color: "#7c3aed",
   },
   {
-    title: "RAG Q&A Transcription App",
+    title: "RAG-Powered Video Intelligence Agent",
     category: "AI / RAG",
     status: "Complete",
     description:
-      "Web app: audio → transcription → contextual Q&A. Full RAG pipeline with vector search, re-ranking, event-triggered notifications.",
-    tags: ["RAG", "FastAPI", "ChromaDB", "LLM"],
+      "Full-stack RAG system: ingests video/transcripts, chunks content, generates embeddings in Supabase pgvector. Pydantic-AI agent over streaming FastAPI for conversational search with timestamped answers.",
+    tags: ["Pydantic-AI", "FastAPI", "Supabase", "pgvector", "Python"],
     color: "#06b6d4",
+  },
+  {
+    title: "RAG Audio Knowledge Assistant",
+    category: "AI / RAG",
+    status: "Complete",
+    description:
+      "Web app: audio → transcription → contextual Q&A. Full RAG pipeline with document ingestion, embedding, vector search, re-ranking, and event-triggered notifications.",
+    tags: ["RAG", "FastAPI", "ChromaDB", "LLM"],
+    color: "#00d4ff",
   },
   {
     title: "Enterprise Patch Management",
@@ -49,12 +58,12 @@ const placeholders = [
     color: "#7c3aed",
   },
   {
-    title: "Coming Soon",
+    title: "More Projects",
     category: "Future",
-    status: "Locked",
+    status: "Coming Soon",
     description:
       "New AI agent projects and open-source tools are on the way. Watch this space.",
-    tags: ["???"],
+    tags: ["AI Agents", "Open Source"],
     color: "#9090b0",
     locked: true,
   },
