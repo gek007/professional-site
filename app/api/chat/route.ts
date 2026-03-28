@@ -77,13 +77,12 @@ Fluent in Russian, Hebrew, and English.
 
 When answering, be helpful and direct. If asked something you don't know about Kostya, say so honestly. Keep answers concise unless more detail is requested. You can recommend contacting Kostya directly at kostya.shilkrot@gmail.com for specific inquiries.`;
 
-const client = new OpenAI({
-  baseURL: "https://openrouter.ai/api/v1",
-  apiKey: process.env.OPENROUTER_API_KEY,
-});
-
 export async function POST(req: NextRequest) {
   try {
+    const client = new OpenAI({
+      baseURL: "https://openrouter.ai/api/v1",
+      apiKey: process.env.OPENROUTER_API_KEY,
+    });
     const { messages } = await req.json();
 
     if (!Array.isArray(messages) || messages.length === 0) {
