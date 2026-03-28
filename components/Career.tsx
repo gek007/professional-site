@@ -23,7 +23,7 @@ const jobs = [
   },
   {
     company: "Varonis",
-    role: "Senior Backend Software Developer | Distributed Data Protection",
+    role: "Senior Backend Software Developer | Python, C# Distributed Data Protection",
     period: "Sep 2014 – Jul 2025",
     duration: "10 yrs 11 mos",
     location: "Herzliya, Israel",
