@@ -126,6 +126,7 @@ export default function About() {
               <p className="font-mono text-xs text-[#00d4ff] mb-3">// certifications</p>
               <ul className="space-y-1.5">
                 {[
+                  "AI Engineer Agentic Track: The Complete Agent & MCP Course",
                   "AI Coder: Vibe Coder to Agentic Engineer",
                   "AI Coding Agents with GitHub Copilot and Cursor",
                   "AI For Developers With GitHub Copilot, Cursor AI & ChatGPT",
