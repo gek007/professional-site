@@ -5,7 +5,7 @@ import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
 
 const TYPING_TEXTS = [
   "Senior Software Engineer",
-  "AI Agent Architect",
+  "AI Agent Architecture",
   "GenAI Engineer",
   "Distributed Systems Expert",
   "Cybersecurity Engineer",
