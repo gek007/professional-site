@@ -142,7 +142,7 @@ export default function Hero() {
           {[
             { value: "20+", label: "Years Engineering", accent: "#00d4ff", delay: "0s" },
             { value: "11yr", label: "@ Varonis", accent: "#7c3aed", delay: "0.5s" },
-            { value: "AI", label: "Agent Architect", accent: "#06b6d4", delay: "1s" },
+            { value: "AI", label: "Agent Architecture", accent: "#06b6d4", delay: "1s" },
             { value: "∞", label: "Systems Built", accent: "#00d4ff", delay: "1.5s" },
           ].map((stat) => (
             <div
