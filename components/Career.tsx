@@ -5,7 +5,7 @@ import { ChevronDown } from "lucide-react";
 
 const jobs = [
   {
-    company: "Freelance / Self-Employed",
+    company: "Start-up | Senior Software Engineer",
     role: "Senior Software Engineer | Python GenAI · AI Agent Architecture",
     period: "Jul 2025 – Present",
     duration: "Current",
