@@ -110,6 +110,7 @@ export default function Contact() {
                   "AI Agent Architecture",
                   "Backend & Distributed Systems",
                   "Consulting & Advisory",
+                  "Python & C# Ecosystem",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-sm">
                     <span className="text-[#00d4ff]">▹</span>
