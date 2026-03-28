@@ -133,8 +133,8 @@ export default function Skills() {
         <div className="mb-16">
           <p className="font-mono text-sm text-[#00d4ff] mb-2">02 // skills_matrix</p>
           <h2 className="text-4xl md:text-5xl font-bold text-[#f0f0f8]">
-            Full-stack{" "}
-            <span className="gradient-text">technical depth</span>
+            Backend{" "}
+            <span className="gradient-text">tech stack</span>
           </h2>
           <p className="text-[#9090b0] mt-4 max-w-xl">
             Across AI, backend systems, cloud infrastructure, and security — a
