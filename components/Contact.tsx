@@ -102,14 +102,13 @@ export default function Contact() {
                 </span>
               </div>
               <h3 className="text-[#f0f0f8] font-bold text-2xl mb-4">
-                Available for senior/lead roles
+                Available for Senior Software Developer
               </h3>
               <ul className="space-y-2">
                 {[
                   "AI / GenAI Engineering",
                   "AI Agent Architecture",
                   "Backend & Distributed Systems",
-                  "Technical Leadership",
                   "Consulting & Advisory",
                 ].map((item) => (
                   <li key={item} className="flex items-center gap-2 text-sm">
