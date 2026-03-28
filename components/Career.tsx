@@ -192,7 +192,7 @@ export default function Career() {
         <div className="mb-16">
           <p className="font-mono text-sm text-[#00d4ff] mb-2">03 // career_journey</p>
           <h2 className="text-4xl md:text-5xl font-bold text-[#f0f0f8]">
-            25 years of{" "}
+            20+ years of{" "}
             <span className="gradient-text">building things</span>
             <br />
             that matter
