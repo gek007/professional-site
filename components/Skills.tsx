@@ -175,39 +175,49 @@ export default function Skills() {
         </div>
 
         {/* Featured projects row */}
-        <div className="mt-12 grid md:grid-cols-3 gap-5">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           {[
             {
               name: "AI Meeting Intelligence Platform",
-              desc: "Event-driven pipeline: video/audio → Whisper transcription → LLM extraction of decisions & action items. Microservices via RabbitMQ. Supports RAG + MCP integration.",
-              tags: ["Python", "LangChain", "Whisper", "RabbitMQ", "Docker", "K8s"],
+              desc: "Event-driven pipeline: video/audio → Whisper → LLM extraction of decisions & action items via RabbitMQ. RAG + MCP integration.",
+              tags: ["Python", "LangChain", "Whisper", "RabbitMQ", "K8s"],
             },
             {
               name: "GenAI News Aggregator",
-              desc: "Automated pipeline collecting, summarizing, ranking, and emailing AI news from OpenAI, Anthropic & YouTube using GPT-4.1 Mini for structured personalization.",
-              tags: ["Python 3.12", "PostgreSQL", "OpenAI API", "Docker", "Render"],
+              desc: "Automated pipeline collecting, summarizing, ranking, and emailing AI news using GPT-4.1 Mini. PostgreSQL backend.",
+              tags: ["Python", "OpenAI API", "PostgreSQL", "Docker"],
             },
             {
-              name: "RAG-Powered Video Intelligence Agent",
-              desc: "Full-stack RAG system ingesting video/transcripts, generating embeddings, indexed in Supabase pgvector. Pydantic-AI agent over streaming FastAPI for conversational search with timestamped answers.",
-              tags: ["Pydantic-AI", "FastAPI", "Supabase", "pgvector", "Python"],
+              name: "RAG Video Intelligence Agent",
+              desc: "Full-stack RAG system: video/transcripts → embeddings → Supabase pgvector. Pydantic-AI agent over streaming FastAPI for timestamped conversational search.",
+              tags: ["Pydantic-AI", "FastAPI", "Supabase", "pgvector"],
+            },
+            {
+              name: "RAG Audio Knowledge Assistant",
+              desc: "Web app: audio → transcription → contextual Q&A. Document ingestion, vector search, re-ranking, LLM answers, event-triggered notifications.",
+              tags: ["RAG", "FastAPI", "ChromaDB", "LLM"],
+            },
+            {
+              name: "Enterprise Patch Management",
+              desc: "Designed and implemented a Patch Management System for deploying patches across a large distributed system at Varonis.",
+              tags: ["C# .NET", "Distributed", "Azure DevOps"],
             },
           ].map((proj) => (
             <div
               key={proj.name}
-              className="glass rounded-xl p-5 border-t-2"
+              className="glass rounded-xl p-4 border-t-2 flex flex-col"
               style={{ borderTopColor: "#00d4ff" }}
             >
               <p className="font-mono text-xs text-[#00d4ff] mb-1">// recent project</p>
-              <h3 className="text-[#f0f0f8] font-semibold mb-2">{proj.name}</h3>
-              <p className="text-[#9090b0] text-sm leading-relaxed mb-3">
+              <h3 className="text-[#f0f0f8] font-semibold text-sm mb-2">{proj.name}</h3>
+              <p className="text-[#9090b0] text-xs leading-relaxed mb-3 flex-1">
                 {proj.desc}
               </p>
-              <div className="flex flex-wrap gap-1.5">
+              <div className="flex flex-wrap gap-1">
                 {proj.tags.map((t) => (
                   <span
                     key={t}
-                    className="px-2 py-0.5 rounded font-mono text-xs bg-[rgba(124,58,237,0.1)] text-[#7c3aed] border border-[rgba(124,58,237,0.2)]"
+                    className="px-1.5 py-0.5 rounded font-mono text-xs bg-[rgba(124,58,237,0.1)] text-[#7c3aed] border border-[rgba(124,58,237,0.2)]"
                   >
                     {t}
                   </span>
