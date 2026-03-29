@@ -79,7 +79,7 @@ export default function ChatWidget() {
       <button
         onClick={() => setOpen((v) => !v)}
         aria-label={open ? "Close chat" : "Open Digital Twin chat"}
-        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 px-4 py-3 rounded-xl shadow-lg transition-all duration-300 pulse-glow"
+        className="fixed bottom-6 right-16 z-50 flex items-center gap-2 px-4 py-3 rounded-xl shadow-lg transition-all duration-300 pulse-glow"
         style={{
           background: "linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%)",
         }}
@@ -95,7 +95,7 @@ export default function ChatWidget() {
       {/* Chat panel */}
       {open && (
         <div
-          className="fixed bottom-20 right-6 z-50 w-[440px] max-w-[calc(100vw-1.5rem)] flex flex-col rounded-2xl overflow-hidden shadow-2xl"
+          className="fixed bottom-20 right-16 z-50 w-[440px] max-w-[calc(100vw-1.5rem)] flex flex-col rounded-2xl overflow-hidden shadow-2xl"
           style={{
             background: "rgba(8,8,16,0.96)",
             border: "1px solid rgba(0,212,255,0.18)",
