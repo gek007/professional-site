@@ -79,27 +79,28 @@ export default function ChatWidget() {
       <button
         onClick={() => setOpen((v) => !v)}
         aria-label={open ? "Close chat" : "Open Digital Twin chat"}
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 pulse-glow"
+        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 px-4 py-3 rounded-xl shadow-lg transition-all duration-300 pulse-glow"
         style={{
           background: "linear-gradient(135deg, #00d4ff 0%, #7c3aed 100%)",
         }}
       >
         {open ? (
-          <X size={22} className="text-white" />
+          <X size={18} className="text-white" />
         ) : (
-          <MessageCircle size={22} className="text-white" />
+          <MessageCircle size={18} className="text-white" />
         )}
+        <span className="text-white font-semibold text-sm">AI Assistant</span>
       </button>
 
       {/* Chat panel */}
       {open && (
         <div
-          className="fixed bottom-24 right-6 z-50 w-[360px] max-w-[calc(100vw-1.5rem)] flex flex-col rounded-2xl overflow-hidden shadow-2xl"
+          className="fixed bottom-20 right-6 z-50 w-[440px] max-w-[calc(100vw-1.5rem)] flex flex-col rounded-2xl overflow-hidden shadow-2xl"
           style={{
             background: "rgba(8,8,16,0.96)",
             border: "1px solid rgba(0,212,255,0.18)",
             backdropFilter: "blur(16px)",
-            maxHeight: "520px",
+            maxHeight: "640px",
           }}
         >
           {/* Header */}
