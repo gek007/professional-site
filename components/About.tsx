@@ -5,7 +5,7 @@ import { Shield, Cpu, Zap, Globe } from "lucide-react";
 const traits = [
   {
     icon: Cpu,
-    title: "Systems Architect",
+    title: "Software Architecture",
     description:
       "Designed and built large-scale distributed systems across enterprise environments for over two decades.",
   },
