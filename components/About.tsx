@@ -23,9 +23,9 @@ const traits = [
   },
   {
     icon: Globe,
-    title: "Multilingual",
+    title: "Agentic AI SDK",
     description:
-      "Fluent in Russian, Hebrew, and English. Worked across international teams and markets throughout my career.",
+      "OpenAI, Claude Agents, LangChain, LangGraph, LangSmith, Pydantic-AI, CrewAI, LlamaIndex",
   },
 ];
 
