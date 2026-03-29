@@ -11,13 +11,13 @@ const traits = [
   },
   {
     icon: Zap,
-    title: "AI Pioneer",
+    title: "Agentic AI",
     description:
       "Building production AI agents, RAG pipelines, and LLM-powered microservices with cutting-edge open and frontier models.",
   },
   {
     icon: Shield,
-    title: "Security Mindset",
+    title: "Cybersecurity",
     description:
       "Deep background in cybersecurity — from kernel-level network filtering at Check Point to enterprise data protection at Varonis.",
   },
