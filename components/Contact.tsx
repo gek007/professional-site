@@ -1,6 +1,6 @@
 "use client";
 
-import { Mail, Linkedin, MapPin, Copy, Check } from "lucide-react";
+import { Check, Copy, Linkedin, Mail, MapPin } from "lucide-react";
 import { useState } from "react";
 
 export default function Contact() {
@@ -136,8 +136,8 @@ export default function Contact() {
           <div className="flex flex-wrap gap-4">
             {[
               { lang: "Russian", level: "Native / Bilingual" },
-              { lang: "Hebrew", level: "Full Professional" },
-              { lang: "English", level: "Professional Working" },
+              { lang: "Hebrew", level: "Native" },
+              { lang: "English", level: "Full Professional" },
             ].map(({ lang, level }) => (
               <div key={lang} className="flex items-center gap-2">
                 <span className="text-[#f0f0f8] font-semibold text-sm">
